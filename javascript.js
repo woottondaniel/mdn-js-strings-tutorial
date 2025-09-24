@@ -15,13 +15,13 @@ console.log(single);
 console.log(double);
 console.log(backtick);
 
-
 const one = "Hello, ";
 const two = "how are you?";
 const joined = `${one}${two}`
 console.log(joined)
 
 // press me button
+
 const button = document.querySelector("button");
 
 function greet() {
@@ -96,3 +96,6 @@ let text8 = text5.replace("Banana", "BonBonBonBons")
 console.log(text8)
 
 // following this on conditionals https://www.w3schools.com/js/js_if_else.asp
+
+const now = new Date();
+console.log(now.toDateString())
